@@ -1,7 +1,7 @@
+
 n1 = int(input("Dame un número: "))
 
+if n1 > 0 and n1%2 != 0 : 
+     print("Sí es positivo e impar")
 else : 
-    if n1 > 0 :
-         print("es positivo")
-    else : 
-
+     print("No se cumple que sea positivo e impar")
