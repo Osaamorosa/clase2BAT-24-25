@@ -2,11 +2,11 @@
 #que el código sea admin y la clave 0987. Debes utilizar conectores lógicos (and,
 #or, not,...)
 
-clave = int(input("dame un código que contenga 5 palabras: "))
-contraseña = int(input("dame una clave con 4 números"))
+clave = input("dame un código que contenga 5 palabras: ")
+contraseña = input("dame una clave con 4 números: ")
 
-if (clave == "admin" or contraseña == "0987") : 
-    print("código y contraseña válido")
+if (clave != "admin" or contraseña != "0987") : 
+    print("código y contraseña NO válido")
 else : 
-    print("código y copntraseña mo aceptado")
+    print("código y copntraseña aceptado")
 
