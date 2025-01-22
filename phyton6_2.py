@@ -8,5 +8,5 @@ contraseña = input("dame una clave con 4 números: ")
 if (clave != "admin" or contraseña != "0987") : 
     print("código y contraseña NO válido")
 else : 
-    print("código y copntraseña aceptado")
+    print("código y contraseña aceptado")
 
