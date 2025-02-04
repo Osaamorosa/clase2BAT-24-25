@@ -6,7 +6,7 @@ meses = ["enero", "febrero", "marzo", "abirl", "mayo", "junio", "julio", "agosto
 n = int(input("dame un número del 1 al 12: "))
 
 if 1 <= n <= 12 : 
-    print("el mes correspondiente al número dado es: " meses[n - 1])
+    print("el mes correspondiente al número dado es: ", meses[n - 1])
 
 else: 
     print("número no válido, introduzca otra número entre el 1 y el 12: ")
