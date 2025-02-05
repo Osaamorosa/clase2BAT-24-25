@@ -1,4 +1,4 @@
-#Claudia Pujalte Calderón     5/2/24 
+#Claudia Pujalte Calderón     5/2/25 
 #Escribe un programa que pida números hasta que se introduzca un cero. Debe imprimir la suma de todos los números introducidos.
 
 #iniciamos la suma en 0 
